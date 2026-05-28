@@ -1828,15 +1828,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 875813018}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d80f087915091a40aa087d38118a41a, type: 3}
+  m_Script: {fileID: 11500000, guid: 8eee0a3a741d8494d979f30bd464ea9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Channels: 0200000001000000
   Timeout: 25
-  SteamAppID: 480
+  SteamAppID: 4387060
   AllowSteamRelay: 1
   UseNextGenSteamNetworking: 1
-  InitFacepunch: 0
+  InitFacepunch: 1
   SteamUserID: 0
 --- !u!1 &917814820
 GameObject:
@@ -2779,7 +2779,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1301520497}
-  - component: {fileID: 1301520496}
   - component: {fileID: 1301520498}
   - component: {fileID: 1301520499}
   m_Layer: 0
@@ -2789,19 +2788,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1301520496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301520495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 879b96adda7d16a4bb482a6ca904a91e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  appID: 480
 --- !u!4 &1301520497
 Transform:
   m_ObjectHideFlags: 0
